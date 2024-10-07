@@ -7,6 +7,7 @@ C:\Users\chira\eclipse-workspace\OpenCartV1Framework\src\test\java\pageObjects\M
 C:\Users\chira\eclipse-workspace\OpenCartV1Framework\src\test\java\testtPage\TC001_AccountRegistrartionTest.java
 C:\Users\chira\eclipse-workspace\OpenCartV1Framework\src\test\java\testtPage\TC002_AccountLoginTest.java
 C:\Users\chira\eclipse-workspace\OpenCartV1Framework\src\test\java\testtPage\TC003_DataDrivenAccountLoginTest.java
+C:\Users\chira\eclipse-workspace\OpenCartV1Framework\src\test\java\testtPage\TC004_GitHub.java
 C:\Users\chira\eclipse-workspace\OpenCartV1Framework\src\test\java\utilities\DataProviders.java
 C:\Users\chira\eclipse-workspace\OpenCartV1Framework\src\test\java\utilities\ExcelUtility.java
 C:\Users\chira\eclipse-workspace\OpenCartV1Framework\src\test\java\utilities\ExtentReportManager.java

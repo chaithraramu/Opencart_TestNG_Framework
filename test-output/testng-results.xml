@@ -1,73 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-01T14:20:53 IST" name="Master Suite" finished-at="2024-10-01T14:21:07 IST" duration-ms="14125">
+  <suite started-at="2024-10-06T12:10:32 IST" name="Default suite" finished-at="2024-10-06T12:10:32 IST" duration-ms="78">
     <groups>
       <group name="Master">
-        <method signature="TC001_AccountRegistrartionTest.verify_Account_Registration()[pri:0, instance:testtPage.TC001_AccountRegistrartionTest@c260bdc]" name="verify_Account_Registration" class="testtPage.TC001_AccountRegistrartionTest"/>
-        <method signature="TC002_AccountLoginTest.LogintoAccount()[pri:0, instance:testtPage.TC002_AccountLoginTest@3829ac1]" name="LogintoAccount" class="testtPage.TC002_AccountLoginTest"/>
+        <method signature="TC001_AccountRegistrartionTest.verify_Account_Registration()[pri:0, instance:testtPage.TC001_AccountRegistrartionTest@6cbcf243]" name="verify_Account_Registration" class="testtPage.TC001_AccountRegistrartionTest"/>
       </group> <!-- Master -->
-      <group name="Sanity">
-        <method signature="TC002_AccountLoginTest.LogintoAccount()[pri:0, instance:testtPage.TC002_AccountLoginTest@3829ac1]" name="LogintoAccount" class="testtPage.TC002_AccountLoginTest"/>
-      </group> <!-- Sanity -->
       <group name="Regresstion">
-        <method signature="TC001_AccountRegistrartionTest.verify_Account_Registration()[pri:0, instance:testtPage.TC001_AccountRegistrartionTest@c260bdc]" name="verify_Account_Registration" class="testtPage.TC001_AccountRegistrartionTest"/>
+        <method signature="TC001_AccountRegistrartionTest.verify_Account_Registration()[pri:0, instance:testtPage.TC001_AccountRegistrartionTest@6cbcf243]" name="verify_Account_Registration" class="testtPage.TC001_AccountRegistrartionTest"/>
       </group> <!-- Regresstion -->
     </groups>
-    <test started-at="2024-10-01T14:20:53 IST" name="master" finished-at="2024-10-01T14:21:07 IST" duration-ms="14125">
+    <test started-at="2024-10-06T12:10:32 IST" name="Default test" finished-at="2024-10-06T12:10:32 IST" duration-ms="78">
       <class name="testtPage.TC001_AccountRegistrartionTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testtPage.TC001_AccountRegistrartionTest@c260bdc]" started-at="2024-10-01T14:20:53 IST" name="setUp" finished-at="2024-10-01T14:20:58 IST" duration-ms="4989" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testtPage.TC001_AccountRegistrartionTest@6cbcf243]" started-at="2024-10-06T12:10:32 IST" name="setUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1728196832205" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\chira\AppData\Local\Temp\testng-eclipse--1740179201\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\chira\AppData\Local\Temp\testng-eclipse--1740179201\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_Account_Registration()[pri:0, instance:testtPage.TC001_AccountRegistrartionTest@c260bdc]" started-at="2024-10-01T14:20:58 IST" name="verify_Account_Registration" finished-at="2024-10-01T14:21:00 IST" duration-ms="2293" status="PASS">
+        <test-method signature="verify_Account_Registration()[pri:0, instance:testtPage.TC001_AccountRegistrartionTest@6cbcf243]" started-at="2024-10-06T12:10:32 IST" name="verify_Account_Registration" finished-at="2024-10-06T12:10:32 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\chira\AppData\Local\Temp\testng-eclipse--1740179201\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\chira\AppData\Local\Temp\testng-eclipse--1740179201\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Account_Registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testtPage.TC001_AccountRegistrartionTest@c260bdc]" started-at="2024-10-01T14:21:00 IST" name="tearDown" finished-at="2024-10-01T14:21:01 IST" duration-ms="309" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testtPage.TC001_AccountRegistrartionTest@6cbcf243]" started-at="2024-10-06T12:10:32 IST" name="tearDown" finished-at="2024-10-06T12:10:32 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testtPage.TC001_AccountRegistrartionTest -->
-      <class name="testtPage.TC002_AccountLoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testtPage.TC002_AccountLoginTest@3829ac1]" started-at="2024-10-01T14:21:01 IST" name="setUp" finished-at="2024-10-01T14:21:05 IST" duration-ms="4371" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="LogintoAccount()[pri:0, instance:testtPage.TC002_AccountLoginTest@3829ac1]" started-at="2024-10-01T14:21:05 IST" name="LogintoAccount" finished-at="2024-10-01T14:21:07 IST" duration-ms="1535" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogintoAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testtPage.TC002_AccountLoginTest@3829ac1]" started-at="2024-10-01T14:21:07 IST" name="tearDown" finished-at="2024-10-01T14:21:07 IST" duration-ms="268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testtPage.TC002_AccountLoginTest -->
-    </test> <!-- master -->
-  </suite> <!-- Master Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

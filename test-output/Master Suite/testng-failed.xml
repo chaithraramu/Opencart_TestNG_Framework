@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testtPage.TC001_AccountRegistrartionTest">
+      <class name="testtPage.TC005_addtoCartandCheckOut">
         <methods>
-          <include name="verify_Account_Registration"/>
+          <include name="addtoCartandCheckout"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testtPage.TC001_AccountRegistrartionTest -->
+      </class> <!-- testtPage.TC005_addtoCartandCheckOut -->
     </classes>
   </test> <!-- master(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

@@ -8,9 +8,11 @@
 	  <parameter name="os" value="Windows"></parameter>
 	  <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="testtPage.TC001_AccountRegistrartionTest"/> 
-     <class name="testtPage.TC002_AccountLoginTest"/>
+     <!-- <class name="testtPage.TC001_AccountRegistrartionTest"/> -->
+   <!--  <class name="testtPage.TC002_AccountLoginTest"/> -->
       <!-- <class name="testtPage.TC003_DataDrivenAccountLoginTest"/>-->
+     <!-- <class name="testtPage.TC004_SearchProduct"/> -->
+       <class name="testtPage.TC005_addtoCartandCheckOut"/>
     </classes>
   </test> <!-- master -->
 </suite> <!-- Suite -->

@@ -37,7 +37,6 @@ public class BaseClassTest {
 	public void setUp(String os, String br) throws IOException
 	{
 		
-		
 		//to generate Logs
 		logger=LogManager.getLogger(this.getClass());
 		
